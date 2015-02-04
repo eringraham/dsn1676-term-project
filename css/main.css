@@ -32,7 +32,30 @@ body {
     position: relative;
     top: 20px;
     @-webkit-animation: appear 2s;
-    animation: appear 2s;
+    animation: appear 2s ease;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+    width: 150px;
+    transition: 1s;
+}
+
+.stripe1 {
+    background-color: white;
+    height: 2px;
+    position: relative;
+    top: 10px;
+    animation: stripe1  1s ease infinite;
+}
+
+.stripe2 {
+    background-color: white;
+    height: 2px;
+    position: relative;
+    bottom: 10px;
+    animation: stripe2  1s ease infinite;   
 }
 
 .erin {
@@ -44,10 +67,12 @@ body {
         transform: scale(0.1);
         opacity: 0;
     }
+    
     60% {
         transform: scale(1.2);
-        opacity: 1;
+        opacity: .5;
     }
+    
     100% {
         transform: scale(1);
     }
@@ -58,13 +83,47 @@ body {
         transform: scale(0.1);
         opacity: 0;
     }
+    
     60% {
         transform: scale(1.2);
-        opacity: 1;
+        opacity: .5;
     }
+    
     100% {
         transform: scale(1);
     }
+}
+
+@keyframes stripe1 {
+    0% {
+        transform: translateX(100%);
+        opacity: .25;
+    }
+    
+    50% {
+        opacity: 1;
+    }
+    
+    100% {
+        transform: translateX(-100%);
+        opacity:.25;     
+    }   
+}
+
+@keyframes stripe2 {
+    0% {
+        transform: translateX(-100%);
+        opacity: .25;
+    }
+    
+    50% {
+        opacity: 1;
+    }
+    
+    100% {
+        transform: translateX(100%);
+        opacity:.25;     
+    }   
 }
 
 
