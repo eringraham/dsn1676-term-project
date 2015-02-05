@@ -121,7 +121,7 @@ body {
     }
 }
 
-@-webkit-@keyframes stripe1 {
+@-webkit-keyframes stripe1 {
     0% {
         -webkit-transform: translateX(100%);
         opacity: .25;
@@ -153,7 +153,7 @@ body {
     }   
 }
 
-@-webkit-@keyframes stripe2 {
+@-webkit-keyframes stripe2 {
     0% {
         -webkit-transform: translateX(-100%);
         opacity: .25;
