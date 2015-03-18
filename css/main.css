@@ -136,7 +136,7 @@ body {
 }
 
 .js-menu-open {
-    height: 10em;
+    height: 8em;
     display: block;
     background-color: #ef9d87;   
 }
@@ -145,6 +145,19 @@ body {
     text-align: center;
     color: #a5aa94; 
     font-weight: 700;
+    position: relative;
+    top: 1em;
+}
+
+.title {
+    font-style: italic;
+    font-size: 16px;
+    position: relative;
+    top: .5em;
+    left: 1em;
+    float: left;
+    color: #ef9d87; 
+    font-weight: 300;
 }
 
 .box {
@@ -193,11 +206,9 @@ a:hover {
     width: 100%;
 }
 
-
-.title {
-    color: #a5aa94;
-    font-weight: 500;
-    text-align: center;
+.panel {
+    -webkit-transition: 1s ease;
+    transition: 1s ease; 
 }
 
 @-webkit-keyframes appear {
