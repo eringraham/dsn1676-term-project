@@ -114,15 +114,7 @@ body {
     height: 2em;
     right: 2em;
     top: 2.5em;
-}
-
-.x-btn {
-    display: none;
-    position: absolute;
-    height: 2em;
-    right:2em;
-    top: 2.5em;
-}
+} 
 
 .full-list {
     display: none;
@@ -147,18 +139,35 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #ef9d87;
+    padding: 1em;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+.js-current {
+    background-color: white;
+    color: #ef9d87;
+    padding: 1em;
+    border: 1px solid #ef9d87; 
+}
+
 .tabs {
     list-style-type: none;
     text-align: center;
-    float: left;
     overflow: hidden;
+    display: inline-block;
 }
 
-.tab-btn {
-    border: 1px solid white;
-    background-color: #ef9d87; 
-    padding: 1em;
+.tab-btn { 
     color: white;
+    float: left;
+    display: inline;
 }
 
 @-webkit-keyframes appear {
