@@ -21,6 +21,10 @@ body {
     margin: 0 auto;
 }
 
+img {
+    width: 250px;
+}
+
 .banner {
     background-color: #efe3d3;
     text-align: center;
@@ -132,6 +136,12 @@ body {
     overflow: hidden;
     display: block;
     background-color: #ef9d87;   
+}
+
+.section-title {
+    text-align: center;
+    color: #a5aa94; 
+    font-weight: 700;
 }
 
 .box {
