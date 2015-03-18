@@ -106,18 +106,31 @@ body {
     list-style-type: none;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
-.menu {
+.menu-btn {
     position: absolute;
     height: 2em;
     right: 2em;
     top: 2.5em;
 }
 
+.full-list {
+    display: none;
+}
+
 li:hover {
-    color: #ef9d87;
-    background-color: white;
+    font-weight: 500;
+    color: #efe3d3; 
+    -webkit-transition: 1s;
+    transition: 1s; 
+}
+
+.js-menu-open {
+    overflow: hidden;
+    display: block;
+    background-color: #ef9d87;
 }
 
 @-webkit-keyframes appear {
