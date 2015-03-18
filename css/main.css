@@ -21,8 +21,9 @@ body {
     margin: 0 auto;
 }
 
-img {
+.art {
     width: 250px;
+    text-align: center;
 }
 
 .banner {
@@ -121,8 +122,10 @@ img {
 } 
 
 .full-list {
-    display: none;
-    transition: all 1s ease;
+    height: 0;
+    transition: height 1s ease;
+    overflow: hidden;
+    background-color:  #ef9d87; 
 }
 
 .first-list:hover {
@@ -133,7 +136,7 @@ img {
 }
 
 .js-menu-open {
-    overflow: hidden;
+    height: 10em;
     display: block;
     background-color: #ef9d87;   
 }
@@ -146,6 +149,7 @@ img {
 
 .box {
     overflow: hidden;
+    border: 1px solid #ef9d87;
 }
 
 a {
@@ -162,20 +166,33 @@ a:hover {
 }
 
 .js-current {
+    display: inline-block;
     background-color: white;
     color: #ef9d87;
 }
 
 .tabs {
     list-style-type: none;
+    width: 100%;
 }
 
 .tab-btn { 
-    color: white;
     display: inline-block;
-    float: left;
+    color: white;
     height: 2em;
+    margin: 0;
+    padding: 0;
 }
+
+.tab-btn a {
+    display: inline-block;
+    width: 100%;
+}
+
+.tab-panel, .panel, .panel img {
+    width: 100%;
+}
+
 
 .title {
     color: #a5aa94;
