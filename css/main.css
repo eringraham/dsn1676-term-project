@@ -124,9 +124,10 @@ body {
 
 .full-list {
     height: 0;
+    -webkit-transition: height 1s ease;
     transition: height 1s ease;
     overflow: hidden;
-    background-color:  #ef9d87; 
+    background-color: #ef9d87; 
 }
 
 .first-list:hover {
