@@ -119,6 +119,7 @@ body {
     height: 2em;
     right: 2em;
     top: 2.5em;
+    cursor: pointer;
 } 
 
 .full-list {
@@ -131,6 +132,7 @@ body {
 .first-list:hover {
     font-weight: 500;
     color: #efe3d3; 
+    cursor: pointer;
     -webkit-transition: 1s;
     transition: 1s; 
 }
