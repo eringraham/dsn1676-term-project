@@ -139,8 +139,26 @@ body {
 .js-menu-open {
     overflow: hidden;
     display: block;
-    background-color: #ef9d87;
-    
+    background-color: #ef9d87;   
+}
+
+.box {
+    overflow: hidden;
+    text-align: center;
+}
+
+.tabs {
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+
+.tab-btn {
+    border: 1px solid white;
+    background-color: #ef9d87; 
+    padding: 1em;
+    color: white;
 }
 
 @-webkit-keyframes appear {
