@@ -33,6 +33,10 @@ fieldset, pre, table {
   margin: 0 0 1.5rem;
   font-family: "Josefin Sans" sans-serif;
 }
+ul {
+    line-height: 2;
+    font-weight: 300;
+}
 
 p {
     font-weight: 300;

@@ -89,6 +89,37 @@ body {
     transition: 1s ease;
 }
 
+.nav {
+    overflow: hidden;
+    background-color: #ef9d87;
+    height: 7em;
+}
+
+.nav-logo {
+    height: 5em;
+    position: absolute;
+    top: .25em;
+    left: 2em;
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    height: 2em;
+    right: 2em;
+    top: 2.5em;
+}
+
+li:hover {
+    color: #ef9d87;
+    background-color: white;
+}
+
 @-webkit-keyframes appear {
     0% {
         -webkit-transform: scale(0.1);
