@@ -21,3 +21,10 @@ $tabs.on('click', 'a', function (e) {
     
 });
 
+var $navList = $('.nav-list');
+var $banner = $('.banner');
+var $footer = $('.footer');
+
+$navList.localScroll();
+$banner.localScroll();
+$footer.localScroll();

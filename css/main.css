@@ -114,6 +114,16 @@ body {
     overflow: hidden;
 }
 
+.footer {
+    background-color: #efe3d3;
+    overflow: hidden;
+    height: 6em;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em; 
+    position: ;
+}
+
 .menu-btn {
     position: absolute;
     height: 2em;
