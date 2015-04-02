@@ -186,6 +186,7 @@ a {
 
 .navlink {
     background-color: #ef9d87;
+    border: 1px solid #ef9d87;
 }
 
 a:hover {
