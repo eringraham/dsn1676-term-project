@@ -238,16 +238,19 @@ a:hover {
 }
 
 #flower:hover #one {
+    -webkit-transform: translateX(-60px);
     transform: translateX(-60px);
 }
 
 #flower:hover #three {
+    -webkit-transform: translateX(60px);
     transform: translateX(60px);
 }
 
 #one,
 #two,
 #three {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
     transition: all 1s ease;
 }
