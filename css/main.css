@@ -238,37 +238,20 @@ a:hover {
 }
 
 #flower:hover #one {
-    transform: rotate(360deg);
-}
-
-#one {
-    transform: rotate(0);
-    transform-origin: center;
-    -webkit-transition: all 2s ease;
-    transition: all 2s ease;
+    transform: translateX(-60px);
 }
 
 #flower:hover #three {
-    transform: rotate(360deg);
+    transform: translateX(60px);
 }
 
+#one,
+#two,
 #three {
-    transform: rotate(0);
-    transform-origin: center;
-    -webkit-transition: all 2s ease;
-    transition: all 2s ease;
+    transform: translateY(0);
+    transition: all 1s ease;
 }
 
-#flower:hover #two {
-    transform: rotate(360deg);
-}
-
-#two {
-    transform: rotate(0);
-    transform-origin: center;
-    -webkit-transition: all 3s ease;
-    transition: all 3s ease;
-}
 
 @-webkit-keyframes appear {
     0% {
