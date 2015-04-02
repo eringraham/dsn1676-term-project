@@ -244,6 +244,7 @@ a:hover {
 #one {
     transform: rotate(0);
     transform-origin: center;
+    -webkit-transition: all 2s ease;
     transition: all 2s ease;
 }
 
@@ -254,6 +255,7 @@ a:hover {
 #three {
     transform: rotate(0);
     transform-origin: center;
+    -webkit-transition: all 2s ease;
     transition: all 2s ease;
 }
 
@@ -264,6 +266,7 @@ a:hover {
 #two {
     transform: rotate(0);
     transform-origin: center;
+    -webkit-transition: all 3s ease;
     transition: all 3s ease;
 }
 
