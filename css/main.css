@@ -226,10 +226,15 @@ a:hover {
     transition: 1s ease; 
 }
 
+.thanks {
+    color: #ef9d87;
+    text-align: center;
+}
+
 .flower {
     text-align: center;
     margin: 0 auto;
-    position:relative;
+    height: 7em;
 }
 
 #flower:hover #one {
