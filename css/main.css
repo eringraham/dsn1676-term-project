@@ -226,6 +226,42 @@ a:hover {
     transition: 1s ease; 
 }
 
+.flower {
+    text-align: center;
+    margin: 0 auto;
+    position:relative;
+}
+
+#flower:hover #one {
+    transform: rotate(360deg);
+}
+
+#one {
+    transform: rotate(0);
+    transform-origin: center;
+    transition: all 2s ease;
+}
+
+#flower:hover #three {
+    transform: rotate(360deg);
+}
+
+#three {
+    transform: rotate(0);
+    transform-origin: center;
+    transition: all 2s ease;
+}
+
+#flower:hover #two {
+    transform: rotate(360deg);
+}
+
+#two {
+    transform: rotate(0);
+    transform-origin: center;
+    transition: all 3s ease;
+}
+
 @-webkit-keyframes appear {
     0% {
         -webkit-transform: scale(0.1);
