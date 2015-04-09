@@ -234,10 +234,14 @@ a:hover {
 .flower {
     text-align: center;
     margin: 0 auto;
-    height: 7em;
+    width: 16em;
 }
 
-#flower:hover #one {
+#flower {
+    overflow: visible;
+}
+
+ #flower:hover #one {
     -webkit-transform: translateX(-60px);
     transform: translateX(-60px);
 }
@@ -253,6 +257,14 @@ a:hover {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     transition: all 1s ease;
+}
+
+.js-active #one {
+    transform: translateX(-60px); 
+}
+
+.js-active #three {
+    transform: translateX(60px); 
 }
 
 

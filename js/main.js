@@ -28,3 +28,11 @@ var $footer = $('.footer');
 $navList.localScroll();
 $banner.localScroll();
 $footer.localScroll();
+
+
+var $flowerSection = $('.flower');
+
+$flowerSection.waypoint(function () {
+    $flowerSection.toggleClass('js-active');
+    
+}, {offset: '80%' });
