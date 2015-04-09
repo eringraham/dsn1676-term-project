@@ -21,6 +21,36 @@ $tabs.on('click', 'a', function (e) {
     
 });
 
+var $tabstwo = $('.tabstwo');
+var $paneltwo = $('.paneltwo');
+    
+$tabstwo.on('click', 'a', function (e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+    
+    $paneltwo.filter(':not([hidden])').attr('hidden', true);
+    $(id).removeAttr('hidden');
+    
+    $tabstwo.find('.js-currenttwo').removeClass('js-currenttwo');
+    $(this).addClass('js-currenttwo');
+    
+});
+
+var $tabsthree = $('.tabsthree');
+var $panelthree = $('.panelthree');
+    
+$tabsthree.on('click', 'a', function (e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+    
+    $panelthree.filter(':not([hidden])').attr('hidden', true);
+    $(id).removeAttr('hidden');
+    
+    $tabsthree.find('.js-currentthree').removeClass('js-currentthree');
+    $(this).addClass('js-currentthree');
+    
+});
+
 var $navList = $('.nav-list');
 var $banner = $('.banner');
 var $footer = $('.footer');

@@ -22,7 +22,7 @@ body {
 }
 
 .art {
-    width: 250px;
+    width: 100%;
     text-align: center;
 }
 
@@ -199,7 +199,21 @@ a:hover {
     color: #ef9d87;
 }
 
-.tabs {
+.js-currenttwo {
+    display: inline-block;
+    background-color: white;
+    color: #ef9d87;
+}
+
+.js-currentthree {
+    display: inline-block;
+    background-color: white;
+    color: #ef9d87;
+}
+
+.tabs,
+.tabstwo,
+.tabsthree {
     list-style-type: none;
     width: 100%;
 }
@@ -217,11 +231,15 @@ a:hover {
     width: 100%;
 }
 
-.tab-panel, .panel, .panel img {
+.tab-panel, 
+.panel,
+.panel img {
     width: 100%;
 }
 
-.panel {
+.panel,
+.paneltwo
+.panelthree {
     -webkit-transition: 1s ease;
     transition: 1s ease; 
 }
@@ -241,7 +259,7 @@ a:hover {
     overflow: visible;
 }
 
- #flower:hover #one {
+#flower:hover #one {
     -webkit-transform: translateX(-60px);
     transform: translateX(-60px);
 }
@@ -254,8 +272,8 @@ a:hover {
 #one,
 #two,
 #three {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
     transition: all 1s ease;
 }
 
@@ -266,7 +284,6 @@ a:hover {
 .js-active #three {
     transform: translateX(60px); 
 }
-
 
 @-webkit-keyframes appear {
     0% {
