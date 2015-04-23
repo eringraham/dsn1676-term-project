@@ -4,8 +4,7 @@ var $fullList = $('.full-list');
 $menuBtn.on('click', function () {
     $fullList.toggleClass('js-menu-open');
 });
-    
-    
+     
 var $tabs = $('.tabs');
 var $panel = $('.panel');
     
